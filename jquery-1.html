@@ -4,6 +4,17 @@
   <title>jQuery test page</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>
+  function changeHeadlines(){
+    $("h1").text("New Headline");
+    $("h2").text("A Wikipedia article");
+  };
+  function getHeadline(){
+    return $("h1").text();
+  };
+  function logHeadlines(){
+    console.log($("h1").text());
+    console.log($("h2").text());
+  };
   </script>
 </head>
 <body>
