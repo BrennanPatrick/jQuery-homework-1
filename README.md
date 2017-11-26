@@ -1,1 +1,0 @@
-# jQuery-homework-1
